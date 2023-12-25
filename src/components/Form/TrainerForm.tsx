@@ -17,6 +17,7 @@ const TrainerForm = ({ pokemons, pokemonsTeam, setPokemonsTeam, setIsHiddenModal
     const onSubmit = (e: any) => {
         pokemonsTeam.length === 4 ? console.log({ ...e, pokemonsTeam }) : null;
     }
+    
 
     return (
         <>
