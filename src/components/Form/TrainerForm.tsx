@@ -21,7 +21,7 @@ const TrainerForm = ({ pokemons, pokemonsTeam, setPokemonsTeam, setIsHiddenModal
 
     return (
         <>
-            <section className={s.container}>
+            <section className={`${s.container}`}>
                 <div className={s.block_form}>
                     <h2 className={s.title}>Create your team</h2>
                     <form className={s.trainer_form}  onSubmit={handleSubmit(onSubmit)}>
